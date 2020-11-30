@@ -1,0 +1,17 @@
+@import "../scss/index.scss";
+
+.layout-basic {
+
+    height: 100vh;
+    &__header {
+
+    }
+
+    &__content {
+        
+    }
+
+    &__footer {
+        padding: 25px 20px 20px 20px;
+    }
+}

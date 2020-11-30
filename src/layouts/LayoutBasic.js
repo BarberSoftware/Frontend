@@ -1,6 +1,9 @@
 import React from "react";
 import {Route, Switch} from "react-router-dom";
 
+//component
+import MenuTop from "../components/MenuTop";
+
 //ant desing
 import {Layout} from "antd";
 
@@ -14,16 +17,14 @@ export default function LayoutBasic(props){
     const {Content, Footer} = Layout;
 
     return(
-        <Layout>
-            <h1>Menu</h1>
-            <Layout>
-                <Content>
-                    <LoadRoutes routes={routes} />
-                </Content>
-                <Footer>
-                    copyrigh
-                </Footer>
-            </Layout>
+        <Layout className="layout-basic" >
+            <MenuTop className="layout-basic__header" />
+            <Content className="layout-basic__content">
+                <LoadRoutes routes={routes} />
+            </Content>
+            <Footer className="layout-basic__footer">
+                <span>Copyright</span>
+            </Footer>
         </Layout>
     )
 }
