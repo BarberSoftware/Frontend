@@ -22,9 +22,6 @@ export default function LayoutBasic(props){
             <Content className="layout-basic__content">
                 <LoadRoutes routes={routes} />
             </Content>
-            <Footer className="layout-basic__footer">
-                <span>Copyright</span>
-            </Footer>
         </Layout>
     )
 }

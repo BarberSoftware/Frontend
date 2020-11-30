@@ -58,12 +58,12 @@
             }
             .ant-tabs-tab-active {
                 color: $primary-color !important;
-                border-top: 4px solid $secundary-color !important;
+                border-top: 4px solid $primary-color !important;
                 border-radius: 0 !important;
                 border-right: 0 !important;
                 border-left: 0 !important;
                 span {
-                    color: $secundary-color !important;
+                    color: $primary-color !important;
                 }
             }
             .ant-tabs-content {

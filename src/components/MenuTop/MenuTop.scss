@@ -3,7 +3,7 @@
 .menu-top {
     display: flex;
     align-items: center;
-    background-color: $primary-color;
+    background-color: $background-grey;
     height: 62px;
     padding: 16px 100px;
 
@@ -29,6 +29,6 @@
 }
 
 span {
-    color: black;
+    color: $font-light;
 }
 
