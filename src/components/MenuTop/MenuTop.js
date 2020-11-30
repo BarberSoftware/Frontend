@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {Button} from "antd";
-import { PoweroffOutlined} from "@ant-design/icons";
+import { CaretDownOutlined } from "@ant-design/icons";
 
 import "./MenuTop.scss";
 
@@ -20,7 +20,7 @@ export default function MenuTop(){
                     </Button>
                 </Link> 
                 <Link to={"/login"}>
-                    <Button icon={<PoweroffOutlined />} />  
+                    <Button icon={<CaretDownOutlined />}>User</Button>
                 </Link>                   
             </div>
         </div>
